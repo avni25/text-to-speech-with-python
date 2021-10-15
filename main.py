@@ -9,10 +9,12 @@ print("qwecxczx")
 x = 10
 
 
-y=9
+print("qweqwe")
 
-d=8
 
+
+def add(a,b):
+    return a+b
 
 
 
