@@ -1,20 +1,20 @@
 
 
+def add(a,b):
+    return a+b
 
 
 print("qweqweqw")
 
 print("qwecxczx")
 
-x = 10
+x = add(10,2)
 
 
-print("qweqwe")
+print(x)
 
 
 
-def add(a,b):
-    return a+b
 
 
 
