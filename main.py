@@ -1,26 +1,19 @@
+from gtts import gTTS
+from playsound import playsound
+from texts import texts
 
 
-def add(a,b):
-    return a+b
+# etxt speech icin pip install gTTS   
+# pip install playsound==1.2.2 sonrasinda kodu yaz
+# playsound son versiyonunda hata veriyor. kod calismiyor.
 
 
-print("qweqweqw")
+text = texts[1]
 
-print("qwecxczx")
+tts = gTTS(text, tld='co.uk')
+tts.save("hi.mp3")
 
-x = add(10,2)
-
-
-print(x)
-
-
-
-
-
-
-
-
-
+playsound('hi.mp3')
 
 
 
